@@ -3,10 +3,44 @@ body {
   font-family: sans-serif;
   margin-left: 10%;
 }
-h2 {
+h2, h3 {
+  font-family: serif;
   color: green;
-    font-family: serif;
 }
 .denumire {
   color: red;
+}
+
+.guarantee {
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #a7cece;
+  background-image: url(images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.6em;
+  padding: 3px;
+  padding-left: 80px;
+  margin: 10px;
+  min-height: 80px;
+  max-width: 400px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+
+}
+
+a:visited {
+  color: #777777;
+}
+
+a:hover {
+  text-decoration: underline;
 }

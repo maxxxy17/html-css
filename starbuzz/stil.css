@@ -11,6 +11,14 @@ h2, h3 {
   color: red;
 }
 
+.song {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+
 .guarantee {
   border-color: white;
   border-width: 2px;
@@ -26,6 +34,7 @@ h2, h3 {
   min-height: 80px;
   max-width: 400px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 a {

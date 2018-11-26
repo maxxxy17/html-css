@@ -1,0 +1,59 @@
+body {
+  background-color: #A26C2F;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.star {
+  border-style: solid;
+  background-color: #BC905F;
+  background-position: top left;
+  line-height: 1.6em;
+  padding: 3px;
+  padding-left: 80px;
+  margin: 10px;
+  min-height: 20px;
+  box-sizing: border-box;
+}
+
+#header {
+  font-style: oblique;
+  text-align: left;
+  color: white;
+  max-width: 200px;
+  border-width: 2px;
+  background-color: #BC905F;
+  padding: 3px;
+  min-height: 80px;
+  max-width: 1500px;
+  box-sizing: border-box;
+  border-width: 2px;
+}
+
+.ea {
+  text-align: right;
+  max-width: 200px;
+}
+
+#main {
+  font-style: italic;
+  text-align: right;
+  color: white;
+  max-width: 200px;
+}
+
+.primul {
+  background-color: black;
+  font-style: italic;
+  color: white;
+}
+
+.aldoilea {
+  background-color:#56F1E3;
+
+}

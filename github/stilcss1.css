@@ -1,0 +1,41 @@
+.sus {
+  box-sizing: border-box;
+  border-style: solid;
+  background-color: #BC905F;
+}
+
+.ea {
+  text-align: right;
+  max-height: 100px;
+
+}
+
+.el {
+  text-align: left;
+}
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left {
+  width: 35%;
+}
+
+.middle {
+  width: 30%
+}
+
+.right {
+  width: 35%;
+
+
+</style>

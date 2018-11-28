@@ -1,7 +1,11 @@
-.sus {
-  box-sizing: border-box;
-  border-style: solid;
-  background-color: #BC905F;
+#header {
+	background-color: #675c47;
+	margin: 10px 10px 0px 10px;
+	height:           108px;
+}
+
+#header img#headerSlogan {
+	float: right;
 }
 
 .ea {
@@ -16,26 +20,48 @@
 
 
 <style>
-* {
+{
   box-sizing: border-box;
 }
 
 .column {
   float: left;
   padding: 10px;
-  height: 300px;
+  height: 500px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: auto;
+  vertical-align: top;
 }
 
-.left {
-  width: 35%;
+.right, .left {
+  width: 25%;
+  text-overflow: clip;
 }
 
 .middle {
-  width: 30%
+  width: 50%;
 }
 
-.right {
-  width: 35%;
-
-
 </style>
+
+#footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+.Cariera {
+  font-style: italic;
+}
+
+.Desprenoi {
+  font-style: italic;
+}
+
+.Contact {
+  font-style: italic;
+}

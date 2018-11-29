@@ -1,0 +1,57 @@
+body {
+  background-color: tan;
+  font-family: sans-serif;
+  margin-left: 10%;
+}
+h2, h3 {
+  font-family: serif;
+  color: green;
+}
+.denumire {
+  color: red;
+}
+
+.song {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+.guarantee {
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #a7cece;
+  background-image: url(images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.6em;
+  padding: 3px;
+  padding-left: 80px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 80px;
+  max-width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+
+}
+
+a:visited {
+  color: #777777;
+}
+
+a:hover {
+  text-decoration: underline;
+}

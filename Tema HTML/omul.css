@@ -1,0 +1,110 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  background-color: purple;
+
+}
+
+#container {
+  box-sizing: border-box;
+  padding: 0;
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  border-radius: 150px 150px 0px 0px;
+}
+
+#ochistanga {
+box-sizing: border-box;
+padding: 0;
+background-color: black;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+position: relative;
+top: 70px;
+left: 50px;
+animation: zoomIn 5s 2;
+}
+
+#ochistanga:before {
+  content: ' ';
+  display: block;
+  background: black;
+  margin-left: 10px;
+  width: 0px;
+  height: 5px;
+}
+
+#ochidreapta {
+box-sizing: border-box;
+padding: 0;
+background-color: black;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+position: relative;
+top: 40px;
+left: 120px;
+animation: zoomIn 5s 2;
+}
+
+#ochidreapta:before {
+  content: ' ';
+  display: block;
+  background: black;
+  margin-left: 10px;
+  width: 0px;
+  height: 5px;
+}
+
+#gura {
+ background: black;
+ width: 50px;
+ height: 25px;
+ border-radius: 20px 20px 20px 20px;
+ position: relative;
+ top: 100px;
+ left: 75px;
+ animation: zoomIn 5s;
+}
+
+
+#gura:before {
+  content: ' ';
+  display: block;
+  background: black;
+  margin-left: 10px;
+  width: 0px;
+  height: 5px;
+}
+
+#container #picior {
+  position: absolute;
+  display: flex;
+  bottom: -18px;
+  width: 180px;
+  height: 36px;
+}
+
+#container #picior::before,
+#container #picior::after {
+  content: ' ';
+  width: 36px;
+  height: 36px;
+  background: white;
+  border-radius: 50%;
+}
+
+@keyframes zoomIn {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }

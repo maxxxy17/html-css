@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Exercitiu</title>
+    <link rel="stylesheet" href="order.css">
   </head>
   <h1>Exercitiu</h1>
   <body>
@@ -14,28 +15,49 @@
     </style>
     <form class="" action="index.html" method="post">
 
-      <select class="" name="">
+<header>
+
+Choose your beans:
+      <select class="name=">
         <option value="">House Blade</option>
         <option value="">Bolivia</option>
         <option value="">Organic Guatemala</option>
         <option value="">Kenya</option>
       </select>
 
-      Type:
+    <ul>
+Type:
       <input type="radio" name="type" value="Whole Bean">Whole Bean</input>
       <input type="radio" name="type" value="Ground">Ground</input>
+    </ul>
 
-      Extra:
+    <ul>
+Extra:
       <input type="checkbox" value="Gift">Gift</input>
       <input type="checkbox" value="Catalog">Catalog</input>
+    </ul>
 
-       Ship to:
+Ship to:
+      <ul>
        <label for="name">Name:</label>
        <input type="text" name="">
        <label for="adress">Adress</label>
        <input type="text" adress="">
+       <label for="city">City:</label>
+       <input type="text" city="">
+       <label for="country">Country:</label>
+       <input type="text" country="">
+       <label for="zip">ZipCode:</label>
+       <input type="text" zipcode="">
+     </ul>
+
+     Observations:
+    <ul>
        <textarea name="name" rows="8" cols="80"></textarea>
        <input type="submit">
+    </ul>
+
+  </header>
 
     </form>
   </body>

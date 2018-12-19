@@ -5,6 +5,7 @@
     <title>Exercitiu</title>
     <link rel="stylesheet" href="order.css">
   </head>
+
   <h1>Exercitiu</h1>
   <body>
     <style>
@@ -13,7 +14,7 @@
         display: block;
       }
     </style>
-    <form class="" action="index.html" method="post">
+    <form class="form" action="order.php" method="post">
 
 <header>
 
@@ -25,11 +26,14 @@ Choose your beans:
         <option value="">Kenya</option>
       </select>
 
+	<div id="radio">
     <ul>
 Type:
-      <input type="radio" name="type" value="Whole Bean">Whole Bean</input>
-      <input type="radio" name="type" value="Ground">Ground</input>
+	  
+	    <input type="radio" name="type" value="Whole Bean">Whole bean</input>
+		<input type="radio" name="type" value="Ground">Ground</input>
     </ul>
+		</div>
 
     <ul>
 Extra:
@@ -53,12 +57,13 @@ Ship to:
 
      Observations:
     <ul>
-       <textarea name="name" rows="8" cols="80"></textarea>
-       <input type="submit">
+       <input type"text" name="text">
+       <input type="submit" name="postsubmit" value="Plaseaza comanda" class="button">
     </ul>
 
   </header>
 
     </form>
+
   </body>
 </html>
